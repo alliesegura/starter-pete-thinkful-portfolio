@@ -7,6 +7,29 @@ body {
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
 }
+.flex{
+  display: flex;
+}
+
+.flex-center{
+  align-items: center;
+  justify-content: center;
+}
+
+.item{
+  text-align: left;
+  justify-items: left;
+}
+.flex-portfolio{
+  display:flex;
+  gap: 20px;
+  
+}
+
+.content{
+  font-size: 14px;
+}
+
 
 /* Headings */
 h1,
@@ -53,6 +76,9 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+}
+.navbar{
+  margin: 25px
 }
 
 /* Images */
